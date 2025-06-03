@@ -1,0 +1,6 @@
+| Símbolo | Significado | Ejemplo             | Resultado |
+| ------- | ----------- | ------------------- | --------- |
+| `==`    | igual a     | `5 == 5`            | `True`    |
+| `!=`    | distinto de | `5 != 3`            | `True`    |
+| `!=`    | distinto de | `"hola" != "adiós"` | `True`    |
+| `!=`    | distinto de | `"hola" != "hola"`  | `False`   |

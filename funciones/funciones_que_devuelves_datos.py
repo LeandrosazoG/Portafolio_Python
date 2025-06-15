@@ -23,25 +23,31 @@ aplicar_descuento(500,20)
 
 
 
-def nombre(nombre):
-    return nombre.capitalize()
 
 
 
 
 
+
+nombre_usuario = input("Ingresa tu nombre: ")
+edad_usuario = int(input("Ingresa tu edad: "))
+
+
+def formatear_nombre(nombre):
+    return nombre.strip().capitalize()
 
 
 
 
 
 def es_mayor_edad(nombre,edad):
+    nombre_formateado = formatear_nombre(nombre)
     if edad >= 18:
-        return f"{nombre} Eres mayor de edad, tu edad es {edad}"
+        return f"{nombre_formateado} Eres mayor de edad, tu edad es {edad}"
     else:
-        return f"{nombre} Eres menor de edad, tu edad es {edad}"
+        return f"{nombre_formateado} Eres menor de edad, tu edad es {edad}"
 
 # Ahora sí, esto imprimirá solo el mensaje correcto
-print(es_mayor_edad("juan",20))
-print(es_mayor_edad("pedro",15))
+mensaje = es_mayor_edad(nombre_usuario,edad_usuario)
+print(mensaje)
 

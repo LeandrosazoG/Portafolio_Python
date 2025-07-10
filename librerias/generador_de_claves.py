@@ -20,3 +20,7 @@ print((f"contraseña segura es : {contraseña}"))
 
 # string.punctuation → contiene los símbolos comunes de puntuación:
 # '!"#$%&\'()*+,-./:;<=>?@[\\]^_{|}~'`
+
+
+
+
